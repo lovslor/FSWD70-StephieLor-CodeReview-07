@@ -1,3 +1,24 @@
-<p>
-  my-phone-book works!
-</p>
+<!-- <form class="form-inline row ml-auto">
+        <input name="searchInput" class="form-control col-7" placeholder="" #searchInput="ngModel" [(ngModel)]="searchText" style="width: 80%;">
+        <button class="btn col-3" (click)="searchText=''" id="x">Filter</button>
+</form>
+
+<h1 id="contacts">Contacts</h1>
+
+
+<table class="table">
+        <ng-container *ngFor="let number of numberArray">
+                <tr class="table-dark row m-auto" *ngIf="filterCondition(number)">
+                        <td class="col-lg-2 col-md-2 col-sm-12 col-12 h5">{{number.firstName}}</td>
+                        <td class="col-lg-3 col-md-3 col-sm-12 col-12 h5">{{number.lastName}}</td>
+                        <td class="col-lg-3 col-md-3 col-sm-12 col-12 h5">{{number.mobile}}</td>
+                        <td class="col-lg-3 col-md-3 col-sm-12 col-12 h5">{{number.gender}}</td>
+                        <td class="col-lg-4 align-self-center">
+                                <button class="btn btn-success" (click)="">Edit</button>
+                                <button class="btn btn-danger" id="delete" (click)="">Delete</button>
+                        </td>
+                </tr>
+        </ng-container>
+</table>
+
+<div class="alert alert-danger" *ngIf="showDeletedMessage">Deleted successfully</div> -->
